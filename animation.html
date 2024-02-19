@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        div{
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            animation-name: square;
+            animation-duration:5s ;
+            animation-delay: 1s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-timing-function: ease-in;
+            animation-fill-mode: backwards;
+            position: absolute;
+        }
+
+        @keyframes square {
+            0%{
+                background-color: red;
+                top:0px;
+                left: 0px;
+            }
+
+            25%{
+                background-color: gold;
+                top: 0px;
+                left: 500px;
+            }
+
+            50%{
+                background-color: dodgerblue;
+                top: 500px;
+                left: 500px;
+                border-radius: 50%;
+            }
+            75%{
+                background-color: lime;
+                top: 500px;
+                left: 0px;
+            }
+            100%{
+                background-color: purple;
+                top: 0px;
+                left: 0px;
+            }
+
+
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    
+
+
+<!-- ANIMATION  -->
+
+<!-- 8 PROPERTIES OF ANIMATION  -->
+<!-- 1. @KEYFRAMES 
+2. ANIMATION NAME 
+3. ANIMATION DURATION 
+4. ANIMATION DELAY
+5. ANIMATION ITERATION COUNT 
+6. ANIMATION DIRECTION 
+7. ANIMATION TIMMING FUNCTION 
+8. ANIMATION FILL MODE  -->
+
+<!-- 1. @KEYFRAMES -->
+<!-- IT IS CALLED AS ROOT OF AN ANIMATION  -->
+<!-- WITH OUT @KEYFRAMES ANIMATION WILL NOT WORK  -->
+<!-- ANY CSS PROPERTIES SHOULD BE WRITTEN INSIDE @KEYFRAMES -->
+<!-- AND ALONG WITH @KEYFRAMES ANIMATIONNAME ALSO SHOULD BE GIVEN TOGETHER  -->
+
+
+
+<!-- 2. ANIMATION NAME : NAME GIVEN TO ANIMATION , IT SHOULD BE CALLED ALONG WITH @KEYFRAMES -->
+
+<!-- 3. ANIMATION DURATION : FROM STARTING TO ENDING COMPLETE ONE CYLE HOW LONG THE TIME IS REQUIRED (VALUES SHOULD BE GIVEN IN SECONDS ) -->
+
+<!-- 4. ANIMATION DELAY : IT IS USED TO DELAY THE ANIMATION IT WILL START WORKING AFTER SOME TIMMINGS GIVEN (VALUES SHOULD BE GIVEN IN SECONDS )-->
+
+<!-- 5. ANIMATION ITERATION COUNT: HOW MANY TIMES THE ANIMATION SHOULD BE REPEATED IN GIVEN TIMMING  -->
+
+<!-- 6. ANIMATION DIRECTION : IN WHICH DIRECTION THE ANIMATION SHOULD BE TRAVELLED  -->
+<!-- ALTERNATE : FORWARD 
+REVERSE :BACKWARD 
+ALTERNATE-REVERVSE : FIRST BACKWARD THE GO FORWARD  -->
+
+
+<!-- 7. ANIMATION TIMMING FUNCTION : SPEED OF ANIMATION  -->
+<!-- LINEAR : SAME SPEED FROM STARTING TO ENDING (NORMAL)
+EASE : START THE ANIMATION SLOW AND MOVE FASTER 
+EASE -IN : STARTING SLOW 
+EASE -OUT : ENDING SLOW 
+EASE IN OUT : STARTING AND ENDING SLOW  -->
+
+<!-- 8. ANIMATION FILL MODE : IT WILL SPECIFY THE ANIMATION POSITION BEFORE STARTING AND AFTER ENDING 
+FORWARD : DEPEND ON ANIMATION DIRECTION AND ANIMATION ITERATION COUNT  -->
+<!-- BACKWARD :DEPEND ON ANIMATION DELAY AND ANIMATION DIRECTION  -->
+<!-- BOTH:  -->
+
+
+
+
+<div></div>
+
+
+
+</body>
+</html>

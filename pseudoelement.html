@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* p::first-line{
+            color: aquamarine;
+            background-color: black;
+        }
+
+
+        h1::first-letter{
+            background-color: chartreuse;
+            color: red;
+            font-size: 60px;
+        } */
+
+        /* p::first-line{ color: aquamarine; background-color: black; } 
+        p::first-letter{ color: brown; background-color:violet; } */
+
+
+
+
+        p::selection{
+            color: red;
+            background-color: chartreuse;
+        }
+
+
+        ol li::marker{
+            color: crimson;
+        }
+
+/*         
+        ul li::marker{
+            color: blue;
+            font-size: 50px;
+        } */
+
+        /* ol li{
+            color: crimson;
+        } */
+
+
+
+        p::before{
+            content: "hello";
+            /* content: url(../html/image/tree\ image.jpg); */
+            background-color: red;
+        }
+
+        p::after{
+            content: "hello";
+            background-color: red;
+        }
+
+    </style>
+</head>
+<body>
+
+
+        <!-- selector(tag)::pseudoelement{
+            css properties
+        }
+        -->
+
+     <!-- first line 
+            first letter 
+            multiple 
+            selection 
+            marker 
+            before 
+            after -->
+
+
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur sapiente optio voluptas laborum assumenda excepturi, vitae dolores fugiat incidunt deleniti porro iure vero obcaecati sequi vel, error tenetur reprehenderit fuga?    
+    </p>
+
+
+    <!-- <ol>
+            <li>Get to Know Us</li>
+            <li>  About Us </li>
+            <li>Careers</li>
+            <li>Press Releases</li>
+            <li>Amazon Science</li>
+    </ol>
+
+
+    <ul>
+        <li>Get to Know Us</li>
+        <li>  About Us </li>
+        <li>Careers</li>
+        <li>Press Releases</li>
+        <li>Amazon Science</li>
+    </ul> -->
+
+
+</body>
+</html>

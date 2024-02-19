@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>combinator selector </title>
+    <style>
+        /* div p{
+            color: red;
+            background-color: chartreuse;
+        } */
+
+        /* div>p{
+            color: red;
+            background-color: chartreuse;
+        } */
+
+
+        /* div+p{
+            color: red;
+            background-color: chartreuse;
+        } */
+
+
+        div~p{
+            color: red;
+            background-color: chartreuse;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    
+     <!-- combinator selectors  -->
+        <!-- 1. decendend selector 
+        2. child selector 
+        3. adjacent sibling selector 
+        4. general sibbling selector  -->
+
+
+
+        <!-- decendend selector  parent tag space children tag  (div p)-->
+            <!-- it will select direct members and indirect members (thier children and also grand children for styling inside the parent tag ) -->
+        <!-- <div>
+          <p>HELLOO 1</p>
+          <p>HELLOO 2</p>
+        </div>
+        
+        <div>
+            <section><p>HELLOO 3</p></section>
+            <p>HELLOO 4</p>
+        </div>
+
+        <div>
+            <p>HELLOO 5</p>
+           <span> <p>HELLOO 6</p></span>
+        </div>
+         -->
+
+
+         <!-- CHILD SELECTOR  PARENT TAG > CHILD TAG   DIV>P-->
+<!-- IT WILL SELECT DIRECT MEMBERS (ONLY ITS CHILDREN) FROM THE PARENT TAG  -->
+
+         <!-- <div>
+            <p>HELLOO 1</p>
+            <p>HELLOO 2</p>
+          </div>
+          
+          <div>
+              <section><p>HELLOO 3</p></section>
+              <p>HELLOO 4</p>
+          </div>
+  
+          <div>
+              <p>HELLOO 5</p>
+             <span> <p>HELLOO 6</p></span>
+          </div> -->
+          
+
+
+          <!-- ADJACENT(FIRST) SIBBLING SELECTOR  -->
+            <!-- PARENT TAG + SIBBLING TAG (DIV + P) -->
+        <!-- IT WILL SELECT ONLY THE FIRST OCCURANCE AFTER CLOSING THE PARENT TAG -->
+
+        <!-- <div>
+            <p>HELLOO 1</p>
+            <p>HELLOO 2</p>
+          </div>
+          <p>SIBBLING 1</p>
+          <p>SIBBLING 2</p>
+
+          <div>
+              <section><p>HELLOO 3</p></section>
+              <p>HELLOO 4</p>
+          </div>
+          <p>SIBBLING 3</p>
+          <p>SIBBLING 4</p>
+  
+          <div>
+              <p>HELLOO 5</p>
+             <span> <p>HELLOO 6</p></span>
+          </div>
+          <p>SIBBLING 5</p>
+          <p>SIBBLING 6</p> -->
+
+
+          <!-- GENERAL SIBBLING SELECTOR  PARENT TAG ~ SIBBLING TAG   DIV ~ P  -->
+
+          <div>
+            <p>HELLOO 1</p>
+            <p>HELLOO 2</p>
+          </div>
+          <p>SIBBLING 1</p>
+          <p>SIBBLING 2</p>
+
+          <div>
+              <section><p>HELLOO 3</p></section>
+              <p>HELLOO 4</p>
+          </div>
+          <p>SIBBLING 3</p>
+          <p>SIBBLING 4</p>
+  
+          <div>
+              <p>HELLOO 5</p>
+             <span> <p>HELLOO 6</p></span>
+          </div>
+          <p>SIBBLING 5</p>
+          <p>SIBBLING 6</p>
+          <P>SIBBLING 7</P>
+          <P>SIBBLING 8</P>
+
+
+
+
+</body>
+</html>
+
+
+

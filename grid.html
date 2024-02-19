@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            border: 2px solid black;
+            background-color: yellow;
+        }
+
+
+        #container{
+            display: grid;
+
+            /* it is used to give the width for each element  */
+            /* no of values = no of columns created  */
+
+            /* grid-template-columns:200px 200px 300px  ; */
+
+            /* grid-template-columns: 30% 30% 40%; */
+
+            /* fraction  */
+            grid-template-columns: 1fr 1fr 1fr;
+
+
+            /* it is used to give height for each element  */
+            /* no of rows = no of values given  */
+
+            grid-template-rows: 100px 100px ;
+
+            /* grid-template-rows: 100%  200% ; */
+
+            grid-template-rows: minmax(100px , auto);
+
+            grid-gap: 10px;
+
+        }
+    </style>
+</head>
+<body>
+    
+
+    <!-- grid  -->
+
+<!-- flex is one dimentiontional layout  either we can allign the element in row or column  -->
+
+
+<!-- grid two dimentional layout we can allign in both column and row at a time  -->
+
+
+
+<div id="container">
+    <div class="box box1">box1</div>
+    <div class="box box2">box3</div>
+    <div class="box box3">box3</div>
+    <div class="box box4">box4</div>
+</div>
+
+</body>
+</html>

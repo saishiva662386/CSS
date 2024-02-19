@@ -1,0 +1,60 @@
+#container {
+  width: 1000px;
+  height: 500px;
+  background-image: linear-gradient(to top right, darkblue, rgb(93, 93, 253));
+  position: absolute;
+  z-index: -2;
+}
+.box {
+  background-color: white;
+}
+.box1 {
+  width: 150px;
+  height: 30px;
+  transform: translate(300px, 200px) rotate(90deg);
+  border-radius: 5px;
+  position: absolute;
+  z-index: 1;
+  box-shadow: 1px 1px 10px black;
+}
+.box2 {
+  width: 70px;
+  height: 30px;
+  transform: translate(308px, 153px) rotate(-28deg);
+  border-radius: 5px;
+  position: absolute;
+  z-index: 1;
+}
+.box3 {
+  width: 125px;
+  height: 155px;
+  border-radius: 50%;
+  transform: translate(380px, 135px);
+  box-shadow: 1px 1px 10px black;
+  position: absolute;
+  z-index: 0;
+}
+.box31 {
+  background-color: rgb(51, 51, 247);
+  width: 80px;
+  height: 110px;
+  border-radius: 50%;
+  transform: translate(22px, 24px);
+}
+.box4 {
+  width: 125px;
+  height: 155px;
+  border-radius: 50%;
+  transform: translate(493px, 135px);
+  box-shadow: 1px 1px 10px black;
+  position: absolute;
+  z-index: -1;
+  box-shadow: 1px 1px 10px black;
+}
+.box41 {
+  background-color: rgb(51, 51, 247);
+  width: 80px;
+  height: 110px;
+  border-radius: 50%;
+  transform: translate(22px, 24px);
+}

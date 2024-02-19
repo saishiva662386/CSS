@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+      .big-left-box {
+        grid-column: span 2;
+        grid-row: span 2;
+        width: 100%;
+        height: 400px;
+        position: relative;
+      }
+      .big-left-box img {
+        width: 100%;
+        height: 100%;
+      }
+      .small-box {
+        width: 100%;
+        height: 200px;
+        position: relative;
+      }
+      .small-box img {
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="big-left-box">
+      <img src="https://placekitten.com/800/800" alt="Image" />
+    </div>
+    <div class="small-box">
+      <img src="https://placekitten.com/400/400" alt=" Box 1 Image" />
+    </div>
+    <div class="small-box">
+      <img src="https://placekitten.com/400/401" alt=" Box 2 Image" />
+    </div>
+    <div class="big-left-box">
+      <img src="https://placekitten.com/800/801" alt="Box 3 Image" />
+    </div>
+    <div class="small-box">
+      <img src="https://placekitten.com/400/402" alt=" Box 4 Image" />
+    </div>
+    <div class="small-box">
+      <img src="https://placekitten.com/400/403" alt=" Box 5 Image" />
+    </div>
+  </body>
+</html>
